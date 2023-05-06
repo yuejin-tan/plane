@@ -1,0 +1,993 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Jul 28 20:11:50 2021
+
+# Variables
+
+# environment
+ 
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 76)
+AS = $(PREFIX)gcc -x assembler-with-cpp
+# makefile (from 'Makefile', line 149)
+LIBDIR = 
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\yuejinTan
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\yuejinTan\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-38e9ed44-caac-455e-99ac-7310105dca8a-sock
+# environment
+VSCODE_CWD = D:\programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\Windows
+# makefile (from 'Makefile', line 148)
+LIBS = -lc -lm -lnosys 
+# makefile (from 'Makefile', line 120)
+C_INCLUDES = -ICore/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/CMSIS/Include
+# environment
+PROCESSOR_LEVEL = 6
+# makefile (from 'Makefile', line 78)
+SZ = $(PREFIX)size
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 103)
+C_DEFS = -DUSE_FULL_LL_DRIVER -DHSE_VALUE=8000000 -DHSE_STARTUP_TIMEOUT=100 -DLSE_STARTUP_TIMEOUT=5000 -DLSE_VALUE=32768 -DHSI_VALUE=8000000 -DLSI_VALUE=40000 -DVDD_VALUE=3300 -DPREFETCH_ENABLE=1 -DSTM32F103xB
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_3844_EULAMAIWYUBWOLIY
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+ANSYS_EM_DONOT_PRELOAD_3DDRIVER_DLL = 1
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 100)
+AS_DEFS = 
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /c/Users/YUEJIN~1/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\yuejinTan\OneDrive
+# makefile
+CURDIR := /d/tyj/code/plane
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 80)
+HEX = $(CP) -O ihex
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 145)
+LDSCRIPT = STM32F103C8Tx_FLASH.ld
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'build/system_stm32f1xx.d', line 1)
+MAKEFILE_LIST := Makefile build/ctrl.d build/main.d build/nrf24l01.d build/oled.d build/startup_stm32f103xb.d build/stm32f1xx_it.d build/stm32f1xx_ll_adc.d build/stm32f1xx_ll_dma.d build/stm32f1xx_ll_exti.d build/stm32f1xx_ll_gpio.d build/stm32f1xx_ll_pwr.d build/stm32f1xx_ll_rcc.d build/stm32f1xx_ll_spi.d build/stm32f1xx_ll_tim.d build/stm32f1xx_ll_usart.d build/stm32f1xx_ll_utils.d build/syscalls.d build/sysmem.d build/system_stm32f1xx.d
+# makefile (from 'Makefile', line 128)
+ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 3844
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 117)
+AS_INCLUDES = 
+# makefile (from 'Makefile', line 77)
+CP = $(PREFIX)objcopy
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\yuejinTan\OneDrive
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\yuejinTan
+# default
+MAKECMDGOALS := all
+# environment
+ 
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/d/tyj/path:/usr/bin:/c/Program Files/Git/cmd:/d/MATLAB/runtime/win64:/d/MATLAB/bin:/c/Program Files/dotnet:/c/Users/yuejinTan/AppData/Local/Programs/Python/Python38/Scripts:/c/Users/yuejinTan/AppData/Local/Programs/Python/Python38:/c/Users/yuejinTan/AppData/Roaming/Python/Python38/Scripts:/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/c/Users/yuejinTan/AppData/Local/Microsoft/WindowsApps:/d/programs/Microsoft VS Code/bin
+# environment
+COMPUTERNAME = C740
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+KICAD_SYMBOL_DIR = C:\Program Files\KiCad\share\kicad\library
+# makefile (from 'Makefile', line 66)
+PREFIX = arm-none-eabi-
+# environment
+ANSYSLIC_DIR = D:\AnsysEM\Shared Files\Licensing
+# environment
+LOGONSERVER = \\C740
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = yuejinTan
+# makefile (from 'Makefile', line 87)
+CPU = -mcpu=cortex-m3
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+KISYSMOD = C:\Program Files\KiCad\share\kicad\modules
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 163)
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o))) $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+# environment
+USERDOMAIN = C740
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile (from 'Makefile', line 25)
+OPT = -Og
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 150)
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+# environment
+!D: = d:\tyj\code\plane
+# environment
+USERDOMAIN_ROAMINGPROFILE = C740
+# makefile (from 'Makefile', line 96)
+MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+KICAD_TEMPLATE_DIR = C:\Program Files\KiCad\share\kicad\template
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\yuejinTan\AppData\Roaming\Code\CachedData\b4c1bd0a9b03c749ea011b06c6d2676c8091a70c
+# makefile (from 'Makefile', line 81)
+BIN = $(CP) -O binary -S
+# environment
+APPDATA = C:\Users\yuejinTan\AppData\Roaming
+# makefile (from 'Makefile', line 138)
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"$(@:%.o=%.d)"
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# makefile (from 'Makefile', line 32)
+BUILD_DIR = build
+# environment
+HOME = /home/yuejinTan
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /c/Users/YUEJIN~1/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b04b408e7ec4c90ce414b6c18312ed21-1.57.0-main-sock
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 38)
+C_SOURCES = Core/Src/main.c Core/Src/stm32f1xx_it.c Core/Src/ctrl.c Core/Src/nrf24l01.c Core/Src/oled.c Core/Src/syscalls.c Core/Src/sysmem.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c Core/Src/system_stm32f1xx.c  
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 16)
+TARGET = plane
+# environment
+SESSIONNAME = Console
+# environment
+KISYS3DMOD = C:\Program Files\KiCad\share\kicad\modules\packages3d
+# makefile (from 'Makefile', line 59)
+ASM_SOURCES = startup_stm32f103xb.s
+# makefile (from 'Makefile', line 23)
+DEBUG = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+PROCESSOR_REVISION = 8e0c
+# makefile (from 'Makefile', line 75)
+CC = $(PREFIX)gcc
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# variable set hash-table stats:
+# Load=130/1024=13%, Rehash=0, Collisions=16/228=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+ 
+
+# Directories
+
+# build (device 2785333315, inode 1970324837036349): 61 files, no impossibilities.
+# . (device 2785333315, inode 3377699720534913): 11 files, no impossibilities.
+# Core/Src (device 2785333315, inode 3940649673961192): 10 files, no impossibilities.
+# Drivers/STM32F1xx_HAL_Driver/Src (device 2785333315, inode 4785074604093153): 12 files, no impossibilities.
+
+# 94 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+build/%.o: %.c Makefile | build
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/%.o: %.s Makefile | build
+#  recipe to execute (from 'Makefile', line 170):
+	$(AS) -c $(CFLAGS) $< -o $@
+
+build/%.hex: build/%.elf | build
+#  recipe to execute (from 'Makefile', line 177):
+	$(HEX) $< $@
+	
+
+build/%.bin: build/%.elf | build
+#  recipe to execute (from 'Makefile', line 180):
+	$(BIN) $< $@	
+	
+
+# 4 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+Core/Src/syscalls.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-02 20:23:13.6626993
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6866789
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/nrf24l01.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-02 20:20:18.856
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6846935
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/system_stm32f1xx.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6587647
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/main.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-27 20:11:42.520775
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_rcc.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_rcc'
+#  Last modified 2021-07-28 19:51:52.7345224
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/stm32f1xx_ll_tim.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_tim'
+#  Last modified 2021-07-28 19:51:53.7545232
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6826894
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_usart.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_usart'
+#  Last modified 2021-07-28 19:51:53.9301364
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/nrf24l01.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:51.3830172
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+startup_stm32f103xb.s:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.643
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7096465
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6787028
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_usart.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:53.8833035
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2021-07-28 19:51:46.784117
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6195946
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6095885
+#  File has been updated.
+#  Successfully updated.
+
+build/plane.elf: build/main.o build/stm32f1xx_it.o build/ctrl.o build/nrf24l01.o build/oled.o build/syscalls.o build/sysmem.o build/stm32f1xx_ll_gpio.o build/stm32f1xx_ll_adc.o build/stm32f1xx_ll_dma.o build/stm32f1xx_ll_rcc.o build/stm32f1xx_ll_utils.o build/stm32f1xx_ll_exti.o build/stm32f1xx_ll_spi.o build/stm32f1xx_ll_pwr.o build/stm32f1xx_ll_tim.o build/stm32f1xx_ll_usart.o build/system_stm32f1xx.o build/startup_stm32f103xb.o Makefile
+#  Implicit rule search has not been done.
+#  Last modified 2021-07-28 19:53:33.5107823
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 173):
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+
+build/nrf24l01.o: Core/Src/nrf24l01.c Makefile Core/Src/nrf24l01.c Core/Inc/nrf24l01.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'nrf24l01'
+#  Last modified 2021-07-28 19:51:51.4298812
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+Drivers/CMSIS/Include/core_cm3.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:11.2238328
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7096465
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_gpio.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_gpio'
+#  Last modified 2021-07-28 19:51:52.2339069
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/syscalls.o: Core/Src/syscalls.c Makefile Core/Src/syscalls.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'syscalls'
+#  Last modified 2021-07-28 19:51:51.9006537
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 189):
+	-rm -fR $(BUILD_DIR)
+
+# Not a target:
+build/stm32f1xx_ll_spi.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:53.2256839
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_gpio.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:52.2011493
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6806953
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_dma.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:52.5346192
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2021-07-03 15:47:19.6806953
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_utils.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:52.8681689
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Include/cmsis_compiler.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:11.2178483
+#  File has been updated.
+#  Successfully updated.
+
+build/oled.o: Core/Src/oled.c Makefile Core/Src/oled.c Core/Inc/oled.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h Core/Inc/oledfont.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'oled'
+#  Last modified 2021-07-28 19:51:51.66942
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/stm32f1xx_ll_tim.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:53.5666201
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6816926
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/ctrl.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-26 22:56:47.8582337
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/system_stm32f1xx.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:54.0512455
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7136039
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/oled.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-27 12:28:29.9283232
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_rcc.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:52.6852255
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6787028
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6796975
+#  File has been updated.
+#  Successfully updated.
+
+build/system_stm32f1xx.o: Core/Src/system_stm32f1xx.c Makefile Core/Src/system_stm32f1xx.c Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'system_stm32f1xx'
+ 
+#  Last modified 2021-07-28 19:51:54.0679571
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+all: build/plane.elf build/plane.hex
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_pwr.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_pwr'
+#  Last modified 2021-07-28 19:51:53.4172269
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Core/Src/nrf24l01.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-26 22:47:58.035776
+#  File has been updated.
+#  Successfully updated.
+
+build/sysmem.o: Core/Src/sysmem.c Makefile Core/Src/sysmem.c | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'sysmem'
+#  Last modified 2021-07-28 19:51:52.0656734
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7086181
+#  File has been updated.
+#  Successfully updated.
+
+build:
+#  Implicit rule search has not been done.
+#  Last modified 2021-07-28 19:53:33.619577
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 183):
+	mkdir $@		
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7126301
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7116206
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7146072
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_pwr.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:53.4016311
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6866789
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/oledfont.h:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2021-07-26 19:03:47.3368071
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_adc.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_adc.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_adc'
+#  Last modified 2021-07-28 19:51:52.4255956
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:53:32.9958422
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6856816
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6195946
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_exti.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_exti'
+#  Last modified 2021-07-28 19:51:53.0825291
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/ctrl.o: Core/Src/ctrl.c Makefile Core/Src/ctrl.c Core/Inc/ctrl.h Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'ctrl'
+#  Last modified 2021-07-28 19:53:33.3661969
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+Core/Src/oled.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-27 12:28:29.9110275
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6826894
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-27 20:28:35.416614
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7116206
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/sysmem.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-26 00:25:30.9061663
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7136039
+#  File has been updated.
+#  Successfully updated.
+
+build/plane.hex: build/plane.elf | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'plane'
+#  Last modified 2021-07-28 19:53:33.6205759
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 177):
+	$(HEX) $< $@
+	
+
+build/stm32f1xx_ll_spi.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_spi.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_spi'
+#  Last modified 2021-07-28 19:51:53.2519743
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/oled.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:51.6233546
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/CMSIS/Include/cmsis_gcc.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:11.2188454
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_utils.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_utils'
+#  Last modified 2021-07-28 19:51:52.9306494
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+ 
+# Not a target:
+build/stm32f1xx_it.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:51.0498217
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/ctrl.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:53:29.7989179
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Core/Src/stm32f1xx_it.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-27 20:11:42.2428329
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_adc.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:52.3680971
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/sysmem.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:52.043537
+#  File has been updated.
+#  Successfully updated.
+
+Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.6876772
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/syscalls.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:51.8694103
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/stm32f1xx_it.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-27 20:11:42.3033503
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_ll_dma.o: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c Makefile Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_ll_dma'
+#  Last modified 2021-07-28 19:51:52.565857
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+build/main.o: Core/Src/main.c Makefile Core/Src/main.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h Core/Inc/oled.h Core/Inc/main.h Core/Inc/ctrl.h Core/Inc/nrf24l01.h Core/Inc/millis.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2021-07-28 19:53:33.1812555
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+# Not a target:
+build/startup_stm32f103xb.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:54.1791995
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/ctrl.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:53:33.3349683
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+build/stm32f1xx_ll_exti.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-28 19:51:53.0512881
+#  File has been updated.
+#  Successfully updated.
+
+Core/Inc/millis.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-06 17:52:45.951822
+#  File has been updated.
+#  Successfully updated.
+
+build/stm32f1xx_it.o: Core/Src/stm32f1xx_it.c Makefile Core/Src/stm32f1xx_it.c Core/Inc/main.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h Drivers/CMSIS/Include/core_cm3.h Drivers/CMSIS/Include/cmsis_version.h Drivers/CMSIS/Include/cmsis_compiler.h Drivers/CMSIS/Include/cmsis_gcc.h Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h Core/Inc/stm32f1xx_it.h Core/Inc/millis.h Core/Inc/main.h | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'stm32f1xx_it'
+#  Last modified 2021-07-28 19:51:51.0654393
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 167):
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+ 
+
+Drivers/CMSIS/Include/cmsis_version.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:11.2188454
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-07-03 15:47:19.7106116
+#  File has been updated.
+#  Successfully updated.
+
+build/startup_stm32f103xb.o: startup_stm32f103xb.s Makefile startup_stm32f103xb.s | build
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'startup_stm32f103xb'
+#  Last modified 2021-07-28 19:51:54.1854981
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 170):
+	$(AS) -c $(CFLAGS) $< -o $@
+
+# files hash-table stats:
+# Load=92/1024=9%, Rehash=0, Collisions=46/942=5%
+# VPATH Search Paths
+
+vpath %.c Core/Src:Drivers/STM32F1xx_HAL_Driver/Src
+
+# 1 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 207 / storage = 4462 B / avg = 21 B
+# current buf: size = 8162 B / used = 4462 B / count = 207 / avg = 21 B
+
+# strcache performance: lookups = 1130 / hit rate = 81%
+# hash-table stats:
+# Load=207/8192=3%, Rehash=0, Collisions=1/1130=0%
+# Finished Make data base on Wed Jul 28 20:11:50 2021
+
+ 

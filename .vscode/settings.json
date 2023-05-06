@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "lcd.h": "c",
+        "stdlib.h": "c",
+        "_ansi.h": "c",
+        "config.h": "c",
+        "millis.h": "c",
+        "pendsv.h": "c",
+        "heilsl.h": "c",
+        "main.h": "c"
+    }
+}
